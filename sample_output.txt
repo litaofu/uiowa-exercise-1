@@ -1,0 +1,83 @@
+
+---------------------------------------------------------------------------------
+
+The below data is the sample output with
+
+	Starting date:  2012-07-23
+       	  Ending date:  2012-07-27
+   Log files location:  C:/wamp/www/testenv/logs/exercise1/
+
+* Some arrays displayed below are only for testing.  
+---------------------------------------------------------------------------------
+
+array (size=5)
+  0 => string 'C:/wamp/www/testenv/logs/exercise1/uiowa.exercise1.log.2012-07-23.txt' (length=69)
+  1 => string 'C:/wamp/www/testenv/logs/exercise1/uiowa.exercise1.log.2012-07-24.txt' (length=69)
+  2 => string 'C:/wamp/www/testenv/logs/exercise1/uiowa.exercise1.log.2012-07-25.txt' (length=69)
+  3 => string 'C:/wamp/www/testenv/logs/exercise1/uiowa.exercise1.log.2012-07-26.txt' (length=69)
+  4 => string 'C:/wamp/www/testenv/logs/exercise1/uiowa.exercise1.log.2012-07-27.txt' (length=69)
+
+array (size=4)
+  0 => string 'edhill' (length=6)
+  1 => string 'dcrall' (length=6)
+  6 => string 'jpaulsen' (length=8)
+  8 => string 'knickels' (length=8)
+
+There are 4 unique users on 2012-07-23.
+
+array (size=6)
+  0 => string 'cccccc' (length=6)
+  1 => string 'dcrall' (length=6)
+  2 => string 'ssssss' (length=6)
+  3 => string 'jpaulsen' (length=8)
+  4 => string 'edhill' (length=6)
+  8 => string 'knickels' (length=8)
+
+There are 6 unique users on 2012-07-24.
+
+array (size=5)
+  0 => string 'abcdef' (length=6)
+  1 => string 'dcrall' (length=6)
+  2 => string 'edhill' (length=6)
+  3 => string 'jpaulsen' (length=8)
+  8 => string 'knickels' (length=8)
+
+There are 5 unique users on 2012-07-25.
+
+array (size=8)
+  0 => string 'wweewww' (length=7)
+  1 => string 'dcrall' (length=6)
+  2 => string 'edhill' (length=6)
+  3 => string 'dssdfgff' (length=8)
+  5 => string 'aaaaaa' (length=6)
+  6 => string 'jpaulsen' (length=8)
+  8 => string 'knickels' (length=8)
+  10 => string 'dddddd' (length=6)
+
+There are 8 unique users on 2012-07-26.
+
+array (size=6)
+  0 => string 'edhill' (length=6)
+  1 => string 'dcrall' (length=6)
+  2 => string 'dddddd' (length=6)
+  3 => string 'jpaulsen' (length=8)
+  5 => string 'ffffff' (length=6)
+  8 => string 'knickels' (length=8)
+
+There are 6 unique users on 2012-07-27.
+
+array (size=12)
+  0 => string 'edhill' (length=6)
+  1 => string 'dcrall' (length=6)
+  6 => string 'jpaulsen' (length=8)
+  8 => string 'knickels' (length=8)
+  11 => string 'cccccc' (length=6)
+  13 => string 'ssssss' (length=6)
+  22 => string 'abcdef' (length=6)
+  33 => string 'wweewww' (length=7)
+  36 => string 'dssdfgff' (length=8)
+  38 => string 'aaaaaa' (length=6)
+  43 => string 'dddddd' (length=6)
+  49 => string 'ffffff' (length=6)
+
+The total number of unique users over the course of a 5-day period is 12.

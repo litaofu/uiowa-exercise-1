@@ -1,0 +1,18 @@
+2012-07-22 13:23:02,784 INFO [edhill@128.255.76.77] uiowa.Foo updating record of: 888776666
+2012-07-22 13:23:03,028 INFO [dcrall@128.255.76.3] uiowa.Bar just a plain ole log line that doesn't have a single SSN in it...
+2012-07-22 16:54:30,475 INFO [edhill@128.255.76.24] uiowa.Foo updating record of: 999443333
+2012-07-22 17:06:27,577 WARN [jpaulsen@128.255.76.2] uiowa.Fizz illegal attempted access of record: 999 88 7777
+2012-07-22 18:12:51,415 INFO [edhill@128.255.76.62] uiowa.Baz deleted account 999-55-1111!
+2012-07-22 18:12:51,415 INFO [edhill@128.255.76.62] uiowa.Blah someone did something to [mnoel@ic]
+2012-07-22 17:06:27,577 WARN [jpaulsen@128.255.76.141] uiowa.Fizz illegal attempted access of record: 999 88 7777
+2012-07-22 17:08:41,179 ERROR [edhill@128.255.76.112] uiowa.Buzz com.microsoft.sqlserver.jdbc.SQLServerException
+com.microsoft.sqlserver.jdbc.SQLServerException: Error while fetching record: 888112222.
+at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDriverError(SQLServerException.java:170)
+at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:1049)
+at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:833)
+at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:716)
+at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:841)
+2012-07-22 17:16:27,815 WARN [knickels@128.255.76.119] uiowa.Fizz illegal attempted access of record: 999 88 7777
+2012-07-22 19:54:30,475 INFO [knickels@128.255.76.5] uiowa.Blat record 888-99-1111 has been created by 999-00-0000
+2012-07-22 23:11:31,382 INFO [128.255.76.5] uiowa.Bar just a anotther plain ole log line that doesn't have a single SSN in it...
+2012-07-22 19:54:30,475 INFO [edhill@128.255.76.77] uiowa.Blat record 888-99-1111 has been created by 999-00-0000
